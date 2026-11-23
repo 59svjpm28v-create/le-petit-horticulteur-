@@ -15,7 +15,7 @@ const INFO_BOUTIQUE = {
   telephone: "+33681795581",
   telephoneAffiche: "06 81 79 55 81",
   email: "lepetithorticulteur@outlook.com",
-  adresse: "22 B Route de Beaune, 21190 Labergement-lès-Seurre, Bourgogne",
+  adresse: "22 B Route de Beaune, 21820 Labergement-lès-Seurre, Bourgogne",
   annonce: "🌿 La pépinière est actuellement fermée — réouverture au printemps !",
   horaires: {
     "Lundi":    { texte: "Fermé", ferme: true },
