@@ -9,7 +9,6 @@ function cartePlante(p) {
     ? '<span class="dispo ok">Disponible</span>'
     : '<span class="dispo ko">Rupture</span>';
   return '<article class="plante-card">' +
-    '<div class="plante-visuel" aria-hidden="true">' + p.emoji + '</div>' +
     '<div class="info">' +
       '<h3>' + p.nom + '</h3>' +
       '<p class="desc">' + p.description + '</p>' +

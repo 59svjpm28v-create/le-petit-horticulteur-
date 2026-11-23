@@ -161,9 +161,9 @@ body {
   background: var(--vert-clair);
 }
 
-.plante-card .info { padding: 1rem 1.1rem 1.25rem; flex: 1; display: flex; flex-direction: column; }
-.plante-card h3 { color: var(--vert-fonce); font-size: 1.1rem; }
-.plante-card .desc { font-size: 0.92rem; color: #5a5f63; flex: 1; margin: 0.35rem 0 0.75rem; }
+.plante-card .info { padding: 0.85rem 1rem 0.95rem; flex: 1; display: flex; flex-direction: column; }
+.plante-card h3 { color: var(--vert-fonce); font-size: 1.05rem; }
+.plante-card .desc { font-size: 0.9rem; color: #5a5f63; flex: 1; margin: 0.3rem 0 0.6rem; }
 .plante-card .prix { font-weight: 800; color: var(--terre); font-size: 1.15rem; }
 .plante-card .dispo { font-size: 0.85rem; font-weight: 700; }
 .dispo.ok { color: var(--vert); }
