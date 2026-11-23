@@ -171,6 +171,16 @@ body {
 
 .center { text-align: center; margin-top: 2rem; }
 
+.catalogue-vide {
+  grid-column: 1 / -1;
+  background: var(--vert-clair);
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  color: var(--vert-fonce);
+}
+
 /* Bandeau d'annonce (fermeture temporaire, etc.) */
 .annonce {
   max-width: 900px;

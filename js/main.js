@@ -27,7 +27,7 @@ function afficherCatalogue(categorie) {
   });
   grille.innerHTML = liste.length
     ? liste.map(cartePlante).join("")
-    : '<p>Aucune plante dans cette catégorie pour le moment.</p>';
+    : '<div class="catalogue-vide">🌱 Le catalogue est en préparation — la pépinière rouvre au printemps !<br>Pour connaître les plantes disponibles ou pré-commander, appelez-nous : c\'est le plus simple. 📞</div>';
 }
 
 function initFiltres() {
@@ -125,6 +125,16 @@ document.addEventListener("DOMContentLoaded", function () {
   afficherCatalogue();
   initConseils();
 
+  const sectionExtrait = document.querySelector(".extrait-catalogue");
   const extrait = document.getElementById("extrait-plantes");
-  if (extrait) extrait.innerHTML = PLANTES.slice(0, 3).map(cartePlante).join("");
+  if (extrait) {
+    if (PLANTES.length) {
+      extrait.innerHTML = PLANTES.slice(0, 3).map(cartePlante).join("");
+    } else if (sectionExtrait) {
+      sectionExtrait.innerHTML =
+        '<h2>Le catalogue arrive au printemps 🌱</h2>' +
+        '<p class="lead" style="text-align:center;">La liste de nos plantes est en cours de préparation. En attendant, contactez-nous : nous vous dirons tout ce qui est disponible !</p>' +
+        '<div class="center"><a class="btn btn-primary" href="contact.html">📞 Nous contacter</a></div>';
+    }
+  }
 });

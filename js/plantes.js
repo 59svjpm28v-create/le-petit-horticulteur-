@@ -28,36 +28,9 @@ const INFO_BOUTIQUE = {
 };
 
 const PLANTES = [
-  {
-    emoji: "🪴",
-    nom: "Exemple — Ficus",
-    prix: 15,
-    categorie: "interieur",
-    description: "Exemple de plante d'intérieur à remplacer par vos vraies plantes.",
-    dispo: true,
-  },
-  {
-    emoji: "🌸",
-    nom: "Exemple — Géranium",
-    prix: 5,
-    categorie: "exterieur",
-    description: "Exemple de fleur d'extérieur à remplacer par vos vraies plantes.",
-    dispo: true,
-  },
-  {
-    emoji: "🍅",
-    nom: "Exemple — Plants de tomates",
-    prix: 3,
-    categorie: "legumes",
-    description: "Exemple de plant potager à remplacer par vos vraies plantes.",
-    dispo: true,
-  },
-  {
-    emoji: "🌵",
-    nom: "Exemple — Cactus",
-    prix: 8,
-    categorie: "interieur",
-    description: "Exemple à remplacer par vos vraies plantes.",
-    dispo: false,
-  },
+  /* =================================================
+     CATALOGUE VIDE VOLONTAIREMENT :
+     aucune plante inventee n'est affichee.
+     La vraie liste sera ajoutée quand elle sera fournie.
+     ================================================= */
 ];
