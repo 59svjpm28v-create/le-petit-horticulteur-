@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogue des plantes — Le Petit Horticulteur</title>
+  <meta name="description" content="Découvrez toutes les plantes du Petit Horticulteur, pépinière en Bourgogne : plantes d'intérieur, fleurs, arbustes et légumes du moment.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-leaf" aria-hidden="true">🌿</span>
+      <span>Le Petit Horticulteur</span>
+    </a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="catalogue.html" class="active">Catalogue</a>
+      <a href="conseils.html">Conseils</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="catalogue-main">
+    <div class="annonce contact-annonce" id="annonce" hidden></div>
+    <h1>Notre catalogue</h1>
+    <p class="lead">Toutes nos plantes du moment. Disponibilité et conseils par téléphone.</p>
+
+    <div class="filtres" role="group" aria-label="Filtrer le catalogue">
+      <button data-categorie="toutes" class="filtre active">Toutes</button>
+      <button data-categorie="interieur" class="filtre">Plantes d'intérieur</button>
+      <button data-categorie="exterieur" class="filtre">Plantes d'extérieur</button>
+      <button data-categorie="legumes" class="filtre">Légumes & aromates</button>
+    </div>
+
+    <div id="grille-plantes" class="plantes-grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>Le Petit Horticulteur</strong> — <a href="tel:+33000000000">📞 À renseigner</a></p>
+    <p id="footer-horaires">Horaires à venir</p>
+    <p class="small">© <span id="annee"></span> Le Petit Horticulteur</p>
+  </footer>
+
+  <script src="js/plantes.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

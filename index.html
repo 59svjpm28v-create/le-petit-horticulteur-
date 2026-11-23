@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Petit Horticulteur — Vente de plantes en direct</title>
+  <meta name="description" content="Le Petit Horticulteur : pépinière et vente directe de plantes en Bourgogne (Labergement-lès-Seurre, 21190). Découvrez notre catalogue de plantes d'intérieur et d'extérieur, et contactez-nous par téléphone.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-leaf" aria-hidden="true">🌿</span>
+      <span>Le Petit Horticulteur</span>
+    </a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <a href="index.html" class="active">Accueil</a>
+      <a href="catalogue.html">Catalogue</a>
+      <a href="conseils.html">Conseils</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="annonce" id="annonce" hidden></div>
+    <div class="hero-content">
+      <h1>Des plantes cultivées avec passion, en direct de la pépinière</h1>
+      <p>Pépinière en <strong>Bourgogne</strong>, à Labergement-lès-Seurre. Plantes d'intérieur, fleurs, arbustes et légumes — venez les découvrir et repartez avec le conseil en plus.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="catalogue.html">Voir le catalogue</a>
+        <a class="btn btn-secondary" href="contact.html">📞 Nous appeler</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="atouts">
+    <div class="atout"><span aria-hidden="true">🌱</span><h3>Cultivé ici</h3><p>Des plantes enracinées dans notre production locale.</p></div>
+    <div class="atout"><span aria-hidden="true">🤝</span><h3>Conseil personnalisé</h3><p>On vous dit laquelle choisir selon votre exposition et votre environnement.</p></div>
+    <div class="atout"><span aria-hidden="true">🚜</span><h3>Vente directe</h3><p>Venir à la pépinière, c'est le meilleur des prix.</p></div>
+  </section>
+
+  <section class="extrait-catalogue">
+    <h2>Une selection du catalogue</h2>
+    <div id="extrait-plantes" class="plantes-grid"></div>
+    <div class="center">
+      <a class="btn btn-primary" href="catalogue.html">Tout le catalogue</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p><strong>Le Petit Horticulteur</strong> — <a href="tel:+33000000000">📞 À renseigner</a></p>
+    <p><a class="mail-lien" href="mailto:lepetithorticulteur@outlook.com">✉️ lepetithorticulteur@outlook.com</a></p>
+    <p id="footer-horaires">Horaires à venir</p>
+    <p class="small">© <span id="annee"></span> Le Petit Horticulteur</p>
+  </footer>
+
+  <script src="js/plantes.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

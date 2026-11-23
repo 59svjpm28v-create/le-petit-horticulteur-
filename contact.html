@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Le Petit Horticulteur</title>
+  <meta name="description" content="Contactez Le Petit Horticulteur, pépinière en Bourgogne (Labergement-lès-Seurre, 21190). Téléphone, adresse avec carte et itinéraire.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-leaf" aria-hidden="true">🌿</span>
+      <span>Le Petit Horticulteur</span>
+    </a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="catalogue.html">Catalogue</a>
+      <a href="conseils.html">Conseils</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="contact-main">
+    <h1>Nous contacter</h1>
+
+    <section class="contact-tel">
+      <h2>Un besoin, une question ? Contactez-nous</h2>
+      <div class="moyens-contact">
+        <a class="btn-tel" href="tel:+33000000000">📞 À renseigner</a>
+        <a class="btn-tel btn-mail" href="mailto:lepetithorticulteur@outlook.com">✉️ lepetithorticulteur@outlook.com</a>
+      </div>
+      <p class="lead">Le plus simple est de nous appeler ou de nous écrire : nous répondons à toutes vos questions sur les plantes, les disponibilités et les prix.</p>
+    </section>
+
+    <section class="horaires">
+      <h2>Horaires d'ouverture</h2>
+      <div class="annonce contact-annonce" id="annonce" hidden></div>
+      <table id="table-horaires">
+        <tbody>
+          <tr><th>Lundi</th><td>—</td></tr>
+          <tr><th>Mardi</th><td>—</td></tr>
+          <tr><th>Mercredi</th><td>—</td></tr>
+          <tr><th>Jeudi</th><td>—</td></tr>
+          <tr><th>Vendredi</th><td>—</td></tr>
+          <tr><th>Samedi</th><td>—</td></tr>
+          <tr><th>Dimanche</th><td>—</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="acces">
+      <h2>Venez nous voir</h2>
+      <p id="adresse">Adresse à renseigner : 22 B Route de Beaune, 21190 Labergement-lès-Seurre, Bourgogne.</p>
+      <div class="carte-embed" id="carte" hidden>
+        <iframe title="Carte de la pépinière" src="" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <a id="lien-itineraire" class="btn btn-secondary" href="#" hidden>Voir l'itinéraire</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>Le Petit Horticulteur</strong></p>
+    <p class="small">© <span id="annee"></span> Le Petit Horticulteur</p>
+  </footer>
+
+  <script src="js/plantes.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
