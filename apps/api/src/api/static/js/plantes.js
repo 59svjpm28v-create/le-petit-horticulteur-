@@ -110,11 +110,11 @@ const PLANTES = [
   { emoji: "🍓", nom: "Framboisier ‘Heritage’ rouge remontant", prix: 5.00, categorie: "fruits", description: "Framboises de l'été à l'automne", dispo: true },
   { emoji: "🖤", nom: "Cassis ‘Andega’", prix: 5.00, categorie: "fruits", description: "Cassissier à gros fruits", dispo: true },
   { emoji: "🫐", nom: "Mûre sans épines ‘Dirksen’", prix: 5.00, categorie: "fruits", description: "Ronce aux fruits sucrés, sans épines", dispo: true },
-  { emoji: "🍇", nom: "Mûrier (Morus)", prix: 5.00, categorie: "fruits", description: "Arbre aux fruits comestibles", dispo: true },
   { emoji: "🥝", nom: "Kiwi autofertile ‘Herma’", prix: 10.00, categorie: "fruits", description: "Un seul pied suffit pour fructifier", dispo: true },
 
   /* ---------- POTAGER & DIVERS ---------- */
 
-  { emoji: "🌿", nom: "Basilic", prix: 15.00, categorie: "potager", description: "Aromate", dispo: true },
+  { emoji: "🌿", nom: "Thym", prix: 0, categorie: "potager", description: "Aromate", dispo: true },
+
   { emoji: "🪣", nom: "Terreau (sac)", prix: 19.00, categorie: "potager", description: "Sac de terreau — revente", dispo: true },
 ];
