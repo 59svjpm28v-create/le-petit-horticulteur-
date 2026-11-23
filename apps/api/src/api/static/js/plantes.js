@@ -76,7 +76,7 @@ const PLANTES = [
   { emoji: "🌸", nom: "Cistes (purpureus et decumbens)", prix: 15.00, categorie: "arbustes", description: "Arbuste méditerranéen", dispo: true },
   { emoji: "🌴", nom: "Yucca filamenteux", prix: 15.00, categorie: "arbustes", description: "Arbuste au feuillage rigide", dispo: true },
   { emoji: "🌾", nom: "Saule ‘Crawett’", prix: 15.00, categorie: "arbustes", description: "Arbuste", dispo: true },
-  { emoji: "🍃", nom: "Laurier sauce", prix: 15.00, categorie: "arbustes", description: "Arbuste aromatique", dispo: true },
+  { emoji: "🍃", nom: "Laurier sauce", prix: 15.00, categorie: ["arbustes", "potager"], description: "Arbuste aromatique", dispo: true },
   { emoji: "🌺", nom: "Cognassier du Japon", prix: 15.00, categorie: "arbustes", description: "Arbuste à fleurs du printemps", dispo: true },
   { emoji: "🌿", nom: "Sauge officinale", prix: 15.00, categorie: "arbustes", description: "Arbuste aromatique", dispo: true },
   { emoji: "🔥", nom: "Cornouiller ‘Midwinter Fire’", prix: 15.00, categorie: "arbustes", description: "Écorce visible en hiver", dispo: true },

@@ -22,7 +22,7 @@ function afficherCatalogue(categorie) {
   if (!grille) return;
   const cat = categorie || "toutes";
   const liste = PLANTES.filter(function (p) {
-    return cat === "toutes" || p.categorie === cat;
+    return cat === "toutes" || p.categorie === cat || (Array.isArray(p.categorie) && p.categorie.indexOf(cat) !== -1);
   });
   grille.innerHTML = liste.length
     ? liste.map(cartePlante).join("")
