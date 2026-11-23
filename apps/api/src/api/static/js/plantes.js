@@ -76,9 +76,9 @@ const PLANTES = [
   { emoji: "🌸", nom: "Cistes (purpureus et decumbens)", prix: 15.00, categorie: "arbustes", description: "Arbuste méditerranéen", dispo: true },
   { emoji: "🌴", nom: "Yucca filamenteux", prix: 15.00, categorie: "arbustes", description: "Arbuste au feuillage rigide", dispo: true },
   { emoji: "🌾", nom: "Saule ‘Crawett’", prix: 15.00, categorie: "arbustes", description: "Arbuste", dispo: true },
-  { emoji: "🍃", nom: "Laurier sauce", prix: 15.00, categorie: ["arbustes", "potager"], description: "Arbuste aromatique", dispo: true },
+  { emoji: "🍃", nom: "Laurier sauce", prix: 15.00, categorie: ["arbustes", "aromates"], description: "Arbuste aromatique", dispo: true },
   { emoji: "🌺", nom: "Cognassier du Japon", prix: 15.00, categorie: "arbustes", description: "Arbuste à fleurs du printemps", dispo: true },
-  { emoji: "🌿", nom: "Sauge officinale", prix: 15.00, categorie: "arbustes", description: "Arbuste aromatique", dispo: true },
+  { emoji: "🌿", nom: "Sauge officinale", prix: 15.00, categorie: ["arbustes", "aromates"], description: "Arbuste aromatique", dispo: true },
   { emoji: "🔥", nom: "Cornouiller ‘Midwinter Fire’", prix: 15.00, categorie: "arbustes", description: "Écorce visible en hiver", dispo: true },
   { emoji: "💙", nom: "Caryoptéris ‘Blue Fountain’", prix: 15.00, categorie: "arbustes", description: "Floraison bleue de fin d'été", dispo: true },
   { emoji: "🌺", nom: "Hibiscus des marais", prix: 15.00, categorie: "arbustes", description: "Grandes fleurs d'été", dispo: true },
@@ -114,7 +114,7 @@ const PLANTES = [
 
   /* ---------- POTAGER & DIVERS ---------- */
 
-  { emoji: "🌿", nom: "Thym", prix: 0, categorie: "potager", description: "Aromate", dispo: true },
+  { emoji: "🌿", nom: "Thym", prix: 0, categorie: "aromates", description: "Aromate", dispo: true },
 
   { emoji: "🪣", nom: "Terreau (sac)", prix: 19.00, categorie: "potager", description: "Sac de terreau — revente", dispo: true },
 ];
