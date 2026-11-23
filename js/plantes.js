@@ -19,11 +19,11 @@ const INFO_BOUTIQUE = {
   annonce: "🌿 La pépinière est actuellement fermée — réouverture au printemps !",
   horaires: {
     "Lundi":    { texte: "Fermé", ferme: true },
-    "Mardi":    { texte: "9h - 18h", ferme: false },
-    "Mercredi": { texte: "9h - 18h", ferme: false },
-    "Jeudi":    { texte: "9h - 18h", ferme: false },
-    "Vendredi": { texte: "9h - 18h", ferme: false },
-    "Samedi":   { texte: "9h - 18h", ferme: false },
+    "Mardi":    { texte: "Fermé", ferme: true },
+    "Mercredi": { texte: "Fermé", ferme: true },
+    "Jeudi":    { texte: "Fermé", ferme: true },
+    "Vendredi": { texte: "Fermé", ferme: true },
+    "Samedi":   { texte: "Fermé", ferme: true },
     "Dimanche": { texte: "Fermé", ferme: true },
   },
 };
