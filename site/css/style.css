@@ -277,3 +277,43 @@ body {
   .site-nav a { margin-left: 0.75rem; }
   .hero { padding: 3.5rem 1rem 4.5rem; }
 }
+
+/* Chèque cadeau */
+.btn-cadeau {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--blanc);
+  color: var(--vert-fonce);
+  border: 3px solid #f3c34e;
+  font-size: 1.15rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+.cadeau-emoji { font-size: 1.7rem; }
+.footer-cadeau { color: #f3c34e; font-weight: 700; text-decoration: none; }
+.footer-cadeau:hover { text-decoration: underline; }
+
+/* Flocons de neige discrets */
+.flocons {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 5;
+}
+.flocon {
+  position: absolute;
+  top: -2.5rem;
+  color: var(--blanc);
+  text-shadow: 0 0 2px rgba(45, 90, 39, 0.2);
+  user-select: none;
+  animation-name: chute-flocon;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes chute-flocon {
+  to { transform: translateY(112vh); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .flocon { display: none; }
+}
