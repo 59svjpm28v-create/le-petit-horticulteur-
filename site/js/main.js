@@ -118,7 +118,31 @@ function initConseils() {
   }).join("");
 }
 
+const COMPTEUR_URL = "https://abacus.jasoncameron.dev";
+const COMPTEUR_NS = "le-petit-horticulteur";
+const COMPTEUR_NOM = "passages";
+
+function initCompteurVisites() {
+  const ligne = document.getElementById("compteur-visites");
+  const nb = document.getElementById("nb-visites");
+  if (!ligne || !nb) return;
+  const premierePage = !sessionStorage.getItem("visite-comptee");
+  if (premierePage) {
+    sessionStorage.setItem("visite-comptee", "1");
+  }
+  const chemin = (premierePage ? "/hit/" : "/get/") + COMPTEUR_NS + "/" + COMPTEUR_NOM;
+  fetch(COMPTEUR_URL + chemin)
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      if (typeof data.value !== "number") return;
+      nb.textContent = data.value.toLocaleString("fr-FR");
+      ligne.hidden = false;
+    })
+    .catch(function () {});
+}
+
 document.addEventListener("DOMContentLoaded", function () {
+  initCompteurVisites();
   initInfosBoutique();
   initFiltres();
   afficherCatalogue();

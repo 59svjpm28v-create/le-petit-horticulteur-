@@ -271,6 +271,8 @@ body {
 .mail-lien { color: #cfe5c8 !important; text-decoration: none; }
 .mail-lien:hover { text-decoration: underline; }
 .site-footer .small { opacity: 0.7; font-size: 0.85rem; margin-top: 0.75rem; }
+.compteur-visites { opacity: 0.85; font-size: 0.9rem; margin-top: 0.75rem; }
+.compteur-visites[hidden] { display: none; }
 
 @media (max-width: 640px) {
   .site-header { padding: 0.75rem 1rem; }
