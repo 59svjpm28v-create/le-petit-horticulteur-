@@ -293,6 +293,11 @@ body {
 .footer-cadeau { color: #f3c34e; font-weight: 700; text-decoration: none; }
 .footer-cadeau:hover { text-decoration: underline; }
 
+.localisation { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; text-align: center; }
+.localisation h2, .produits h2 { color: var(--vert-fonce); }
+.produits { max-width: 900px; margin: 0 auto; padding: 0 1rem 2.5rem; text-align: center; }
+.produits .atouts { margin-bottom: 1.5rem; }
+
 /* Flocons de neige discrets */
 .flocons {
   position: fixed;
